@@ -283,6 +283,16 @@ drpt(-97, -88, 12, 8, 0, cl0)
 #Cap
 cerc(-150, -86, 18, cl9)
 
+#Fata
+
+t.pensize(2)
+linie(-160,-64,5,0,cl0)
+linie(-143,-64,5,0,cl0)
+triunghi(-151,-72,4,0,cl8)
+t.color("pale violet red")
+ln(-153,-75,-150,-78)
+
+
 #Gat
 drpt(-153, -86, 6, 7, 0, cl9)
 
