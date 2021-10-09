@@ -16,6 +16,8 @@ cl6 = "tan"
 cl7 = "saddle brown"
 cl8 = "peru"
 cl9 = "peach puff"
+cl10 = "sienna"
+cl11 = "navy"
 
 #Functie dreptunghi
 def drpt (x, y, l, c, u, cl):
@@ -40,6 +42,19 @@ def cerc(x,y,r,cl):
   t.pendown()
   t.begin_fill()
   t.circle(r)
+  t.end_fill()
+
+#Functie triunghi
+def triunghi (x, y, l, u, cl):
+  t.penup()
+  t.goto(x, y)
+  t.rt(u)
+  t.color(cl)
+  t.pendown()
+  t.begin_fill()
+  for i in range (3):
+    t.fd(l)
+    t.lt(120)
   t.end_fill()
 
 #Functie linie 1
@@ -108,14 +123,34 @@ t.penup()
 
 #Jurati??
 
-drpt(60,3,40,30,5,"navy")
-drpt(105,-5,40,30,0,"navy")
-drpt(150,-13,40,30,0,"navy")
+#Trunchiuri
+drpt(60,3,40,30,5,cl11)
+drpt(105,-5,40,30,0,cl11)
+drpt(150,-13,40,30,0,cl11)
+t.lt(5)
 
-cerc(80,0,15,cl9)
-cerc(125,-8,15,cl9)
+# Fata jurat 1
+t.pensize(2)
+cerc(80,0,15,cl10)
+linie(73,19,4,93,"black")
+linie(87,17,4,0,"black")
+t.lt(88)
+triunghi(78,12,4,0,cl8)
+t.color("black")
+t.penup()
+t.goto(76,7)
+t.rt(90)
+t.pendown()
+t.circle(3,180)
+t.rt(90)
+
+#Fata jurat 2
+
+cerc(125,-8,15,cl6)
+
+
+#Fata jurat 3
 cerc(170,-16,15,cl9)
-
 t.penup()
 
 #Masa
@@ -150,8 +185,8 @@ ln(190,-35,130,-50)
 t.end_fill()
 
 #Hartie
-t.pencolor(cl4)
-t.fillcolor(cl4)
+t.pencolor('white')
+t.fillcolor('white')
 t.penup()
 t.goto(60,-25)
 t.begin_fill()
