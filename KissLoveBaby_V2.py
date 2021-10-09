@@ -275,8 +275,3 @@ drpt(-145, -25, 10, 8, 0, cl9)
 drpt(-115, -88, 12, 8, -60, cl0)
 drpt(-97, -88, 12, 8, 0, cl0)
 
-#Comunicare
-cerc(-50,50,50,"white smoke")
-triunghi(-80,70,40,60,"white smoke")
-cerc(-30,60,50,"gainsboro")
-triunghi(40,70,40,60,"gainsboro")
