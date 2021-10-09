@@ -21,6 +21,9 @@ cl10 = "sienna"
 cl11 = "navy"
 cl12 = "teal"
 cl13 = "dark slate gray"
+cl14 = "brown" 
+cl15 = "dark red"
+cl16 = "maroon"
 
 #Functie dreptunghi
 def drpt (x, y, l, c, u, cl):
