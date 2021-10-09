@@ -235,21 +235,42 @@ ln(92,-24,87,-26)
 
 #Aspirantul 1
 
+#Cap
 cerc(-100, 0, 18, cl9)
+
+#Fata
+
+t.rt(90)
+t.pensize(2)
+linie(-103,22,4,0,cl0)
+linie(-89,22,4,0,cl0)
+triunghi(-96,16,4,0,cl8)
+t.penup()
+t.goto(-100,9)
+t.color("pale violet red")
+t.pendown()
+t.begin_fill()
+t.circle(5,180)
+t.end_fill()
+t.lt(270)
+
+#Gat
 drpt(-103, 0, 6, 7, 0,cl9 )
+
+#Trunchi
 drpt(-115, -7, 30, 40, 0, cl12)
+
+#Pantaloni
 drpt(-115, -47, 30, 10, 0, cl13)
 drpt(-115, -57, 12, 30, 0, cl13)
 drpt(-97, -57, 12, 30, 0, cl13)
+
+#Mainile
 drpt(-85, -16, 10, 25, 240, cl12)
 drpt(-63, -3, 10, 8, 0, cl9)
 drpt(-115, -7, 10, 35, 180, cl12)
 drpt(-145, -25, 10, 8, 0, cl9)
+
+#Pantofii
 drpt(-115, -88, 12, 8, -60, cl0)
 drpt(-97, -88, 12, 8, 0, cl0)
-
-#Comunicare
-cerc(-50,50,50,"white smoke")
-triunghi(-80,70,40,60,"white smoke")
-cerc(-30,60,50,"gainsboro")
-triunghi(40,70,40,60,"gainsboro")
