@@ -7,6 +7,7 @@ t.speed(500)
 
 #Paleta de culori
 
+cl0 = "black"
 cl1 = "gray"
 cl2 = "silver"
 cl3 = "light sky blue"
@@ -132,25 +133,43 @@ t.lt(5)
 # Fata jurat 1
 t.pensize(2)
 cerc(80,0,15,cl10)
-linie(73,19,4,93,"black")
-linie(87,17,4,0,"black")
+linie(73,19,4,93,cl0)
+linie(87,17,4,0,cl0)
 t.lt(88)
 triunghi(78,12,4,0,cl8)
-t.color("black")
+t.color(cl0)
 t.penup()
 t.goto(76,7)
 t.rt(90)
 t.pendown()
 t.circle(3,180)
-t.rt(90)
+t.rt(85)
 
 #Fata jurat 2
 
 cerc(125,-8,15,cl6)
-
+linie(118,11,4,93,cl0)
+linie(132,9,4,0,cl0)
+t.lt(88)
+triunghi(123,4,4,0,cl8)
+t.color(cl0)
+ln(120,0,130,-1)
+t.lt(5)
 
 #Fata jurat 3
 cerc(170,-16,15,cl9)
+linie(163,3,4,93,cl0)
+linie(177,1,4,0,cl0)
+t.lt(88)
+triunghi(168,-4,4,0,cl8)
+t.color(cl0)
+t.penup()
+t.goto(173,-11)
+t.rt(270)
+t.pendown()
+t.circle(3,180)
+t.rt(85)
+t.lt(180)
 t.penup()
 
 #Masa
@@ -185,8 +204,8 @@ ln(190,-35,130,-50)
 t.end_fill()
 
 #Hartie
-t.pencolor('white')
-t.fillcolor('white')
+t.pencolor(cl4)
+t.fillcolor(cl4)
 t.penup()
 t.goto(60,-25)
 t.begin_fill()
