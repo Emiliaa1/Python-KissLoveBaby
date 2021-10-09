@@ -151,8 +151,8 @@ ln(190,-35,130,-50)
 t.end_fill()
 
 #Hartie
-t.pencolor('white')
-t.fillcolor('white')
+t.pencolor(cl4)
+t.fillcolor(cl4)
 t.penup()
 t.goto(60,-25)
 t.begin_fill()
