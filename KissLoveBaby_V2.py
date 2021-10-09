@@ -106,6 +106,19 @@ t.pendown()
 t.write("INTERVIU KISSLOVEBABY",font=('Arial',8,'bold'))
 t.penup()
 
+#Jurati??
+
+drpt(60,3,40,30,5,"navy")
+drpt(105,-5,40,30,0,"navy")
+drpt(150,-13,40,30,0,"navy")
+
+cerc(80,0,15,cl9)
+
+
+cerc(125,-8,15,cl9)
+cerc(170,-16,15,cl9)
+t.penup()
+
 #Masa
 
 #Fata1
@@ -136,12 +149,6 @@ ln(130,-130,190,-100)
 ln(190,-100,190,-35)
 ln(190,-35,130,-50)
 t.end_fill()
-
-#Jurati??
-drpt()
-cerc(80,0,15,cl9)
-cerc(125,-8,15,cl9)
-cerc(170,-16,15,cl9)
 
 #Hartie
 t.pencolor('white')
