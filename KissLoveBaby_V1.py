@@ -80,3 +80,14 @@ t.pendown()
 t.write("INTERVIU KISSLOVEBABY",font=('Arial',8,'bold'))
 
 #Masa
+
+#Fata1
+t.pencolor(cl8)
+t.fillcolor(cl8)
+t.goto(0,-10)
+t.begin_fill()
+ln(0,-10,0,-60)
+ln(0,-60,130,-150)
+ln(130,-150,130,-70)
+ln(130,-70,0,-10)
+t.end_fill()
