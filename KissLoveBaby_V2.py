@@ -19,6 +19,8 @@ cl8 = "peru"
 cl9 = "peach puff"
 cl10 = "sienna"
 cl11 = "navy"
+cl12 = "teal"
+cl13 = "dark slate gray"
 
 #Functie dreptunghi
 def drpt (x, y, l, c, u, cl):
@@ -122,7 +124,7 @@ t.pendown()
 t.write("INTERVIU KISSLOVEBABY",font=('Arial',8,'bold'))
 t.penup()
 
-#Jurati??
+#Angajatori
 
 #Trunchiuri
 drpt(60,3,40,30,5,cl11)
@@ -220,7 +222,6 @@ t.end_fill()
 t.pensize(1)
 t.color(cl0)
 ln(84,-30,104,-25)
-t.hideturtle()
 
 t.color("red")
 ln(108,-34,104,-27)
@@ -229,3 +230,21 @@ ln(99,-30,114,-30)
 t.color("green")
 ln(70,-24,92,-24)
 ln(92,-24,87,-26)
+
+#Aspirantii la job
+
+#Aspirantul 1
+
+cerc(-100, 0, 18, cl9)
+drpt(-103, 0, 6, 7, 0,cl9 )
+drpt(-115, -7, 30, 40, 0, cl12)
+drpt(-115, -47, 30, 10, 0, cl13)
+drpt(-115, -57, 12, 30, 0, cl13)
+drpt(-97, -57, 12, 30, 0, cl13)
+drpt(-85, -16, 10, 25, 240, cl12)
+drpt(-63, -3, 10, 8, 0, cl9)
+drpt(-115, -7, 10, 35, 180, cl12)
+drpt(-145, -25, 10, 8, 0, cl9)
+drpt(-115, -88, 12, 8, -60, cl0)
+drpt(-97, -88, 12, 8, 0, cl0)
+
