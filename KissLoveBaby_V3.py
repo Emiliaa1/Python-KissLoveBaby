@@ -275,6 +275,34 @@ drpt(-145, -25, 10, 8, 0, cl9)
 drpt(-115, -88, 12, 8, -60, cl0)
 drpt(-97, -88, 12, 8, 0, cl0)
 
+#Aspirantul 2
+
+#Cap
+cerc(-150, -86, 18, cl9)
+
+#Gat
+drpt(-153, -86, 6, 7, 0, cl9)
+
+#Trunchi
+drpt(-165, -93, 30, 40, 0, cl14)
+
+#Pantaloni
+drpt(-165, -133, 30, 10, 0, cl15)
+drpt(-165, -143, 12, 30, 0, cl15)
+drpt(-147, -143, 12, 30, 0, cl15)
+
+#Mainile
+drpt(-125, -92.5, 25, 10, 90, cl14)
+drpt(-165, -92.5, 25, 10, 0, cl14)
+linie(-135, -92, 25, 0, cl16)
+linie(-165, -92, 25, 0, cl16)
+drpt(-166, -117.5, 7, 9, 0, cl9)
+drpt(-125, -117.5, 7, 9, 0, cl9)
+
+#Pantofii
+drpt(-165, -170, 12, 8, 270, cl0)
+drpt(-147, -170, 12, 8, 0, cl0)
+
 #Comunicare
 cerc(10,40,50,"light gray")
 cerc(-50,50,50,"white smoke")
