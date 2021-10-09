@@ -276,7 +276,7 @@ drpt(-115, -88, 12, 8, -60, cl0)
 drpt(-97, -88, 12, 8, 0, cl0)
 
 #Comunicare
+cerc(10,40,50,"light gray")
 cerc(-50,50,50,"white smoke")
-triunghi(-80,70,40,60,"white")
-cerc(-30,60,50,"black")
-triunghi(50,70,40,60,"black")
+triunghi(-80,70,40,60,"white smoke")
+triunghi(40,80,40,60,"light gray")
